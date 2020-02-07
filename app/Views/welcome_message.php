@@ -47,4 +47,6 @@ $msg = json_decode('
 
 discordmsg($msg, $webhookurl);
 */
+
+//var_dump($transaction);
 ?>

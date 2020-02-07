@@ -96,8 +96,8 @@ class Home extends BaseController
 
 			curl_close($ch);
 
-			var_dump($transaction);
-			return view('welcome_message');
+			//var_dump($transaction);
+			return view('welcome_message', $transaction);
 
 
 		}
